@@ -9,13 +9,14 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-
 import com.revature.goshopping.dto.Auth;
 import com.revature.goshopping.dto.Order;
 import com.revature.goshopping.entity.OrderEntity;
 import com.revature.goshopping.service.OrderService;
 import com.revature.goshopping.utility.ControllerUtility;
 import com.revature.goshopping.utility.JwtUtility;
+
+import com.revature.goshopping.dto.Order;
 
 import java.util.*;
 
